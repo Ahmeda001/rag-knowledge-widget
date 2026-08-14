@@ -1,0 +1,107 @@
+# ==========================================
+# Root & Environment Variables (CRITICAL)
+# ==========================================
+.env
+.env.*
+!.env.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==========================================
+# Operating System & IDE Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE settings
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# Node.js & Frontend (Next.js / Widget)
+# ==========================================
+# Dependencies
+node_modules/
+/frontend/node_modules/
+/widget-script/node_modules/
+.pnp
+.pnp.js
+
+# Build outputs & caches
+/frontend/.next/
+/frontend/out/
+/widget-script/dist/
+/frontend/build/
+.next/
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js & Vercel
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# Testing & Coverage
+/frontend/coverage/
+.nyc_output/
+
+# ==========================================
+# Python & Backend (FastAPI / RAG)
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Caches & Local Databases
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.sqlite3
+*.db
+*.pql
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+/backend/venv/
+/backend/.venv/
+
+# Alembic migrations & distribution
+/backend/dist/
+/backend/build/
+*.egg-info/
+
+# Logs
+/backend/*.log
+/backend/logs/
+*.log
+
+# Uploaded Files & Temporary Storage (Local Ingestion)
+/backend/uploads/
+/backend/temp/
+*.pdf
+*.txt
