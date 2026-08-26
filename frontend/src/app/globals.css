@@ -10,6 +10,14 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-paper: #FBF7F0;
+  --color-ink: #1C1712;
+  --color-soot: #5A524C;
+  --color-cream: #F2EBDC;
+  --color-sand: #E3DAC9;
+  --color-moss: #233329;
+  --color-persimmon: #E4572E;
+  --color-persimmon-dark: #C8421B;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,3 +32,5 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+

@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" data-scroll-behavior="smooth">
       <body className="antialiased text-gray-900 bg-gray-50">
         {/* Next.js automatically injects page.tsx content into {children} */}
         {children}
